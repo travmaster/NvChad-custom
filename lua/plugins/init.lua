@@ -13,6 +13,14 @@ return {
     end,
   },
 
+  --ScrollEOF
+  {
+    'Aasim-A/scrollEOF.nvim',
+    event = { 'CursorMoved', 'WinScrolled' },
+    opts = {},
+  }
+
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
