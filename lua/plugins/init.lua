@@ -20,6 +20,8 @@ return {
     opts = {},
   }
 
+require('scrollEOF').setup()
+
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
