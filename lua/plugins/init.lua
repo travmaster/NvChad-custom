@@ -20,7 +20,7 @@ return {
     opts = {},
   }
 
-require('scrollEOF').setup()
+-- require('scrollEOF').setup()
 
 
   -- test new blink
