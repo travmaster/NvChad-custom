@@ -1,3 +1,4 @@
+
 return {
   {
     "stevearc/conform.nvim",
@@ -13,12 +14,15 @@ return {
     end,
   },
 
-  --ScrollEOF
+  -- ScrollEOF plugin
   {
-    'Aasim-A/scrollEOF.nvim',
-    event = { 'CursorMoved', 'WinScrolled' },
+    "Aasim-A/scrollEOF.nvim",
+    event = { "CursorMoved", "WinScrolled" },
     opts = {},
-  }
+    config = function()
+      require("scrollEOF").setup()
+    end,
+  },
 
 -- require('scrollEOF').setup()
 
