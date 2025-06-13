@@ -25,6 +25,7 @@
   "scrollEOF.nvim": { "branch": "master", "commit": "2575109749b4bf3a0bf979a17947b3c1e8c5137e" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
   "ui": { "branch": "v3.0", "commit": "b7c656064ec54f77bc6c75e4c51108ba451e6d7a" },
+  "vim-be-good": { "branch": "master", "commit": "0ae3de14eb8efc6effe7704b5e46495e91931cc5" },
   "volt": { "branch": "main", "commit": "2aa99a4e388c840597441a901209cbdafe8472ed" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
 }
