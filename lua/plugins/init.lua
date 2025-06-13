@@ -20,7 +20,13 @@ return {
     event = { "CursorMoved", "WinScrolled" },
     opts = {},
     config = function()
-      require("scrollEOF").setup()
+      require("scrollEOF").setup({
+            pattern = "*",
+            insert_mode = true,
+            floating = true,
+            disabled_filetypes = {},
+            disabled_modes = {},
+        })
     end,
   },
 
